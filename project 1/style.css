@@ -1,0 +1,129 @@
+body{  /*home*/
+background-image: url(achtergrondhome.png);
+background-size: cover;
+}
+.overcandy{ /*candy*/
+background-image: url(achtergrondcandy.png);
+background-size: cover;
+}
+
+.locaties{ /*locatie*/
+background-image: url(achtergrondlocat.png);
+background-size: cover;
+}
+header{ /*home*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: auto;
+}
+
+.tekst{ /*home*/
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: "Shrikhand";
+text-align: center;
+}
+
+nav{ /*home*/
+    padding-top: 1em;
+    width:100%;
+}
+
+nav a{ /*home*/
+    text-decoration: none;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav a:hover{ /*home*/
+    color: rgb(239, 0, 171);
+    transition: all 0.3s ease;
+}
+
+nav ul{ /*home*/
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    list-style-type: none;
+    flex-basis: auto;
+    padding-left: 0;
+}
+
+.kaartje{ /*candy*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h1{ /**/
+    color: white;
+    justify-content: center;
+    font-family: "Shrikhand";
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+h2{
+    color: white;
+    justify-content: center;
+    font-family: "Shrikhand";
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: "Shrikhand";
+    text-align: center;
+}
+
+p{
+    color: white;
+}
+
+.kaartje{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.kaartje p{
+    width: 100%;
+    font-size: x-small;
+    padding-left: 15px;
+}
+.kaart{
+    display: flex;
+    justify-content: baseline;
+    align-items: center; 
+    flex-direction: row-reverse; 
+}
+
+.kaart p{
+    width: 100%;
+    font-size: x-small;  
+}
+
+.plaats{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plaats p{
+    font-size: x-small;
+    text-align: center;
+    width: 100%;
+
+}
+
+.loca p{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    align-items: center;
+}
