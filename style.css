@@ -1,14 +1,14 @@
 body{  /*home*/
-background-image: url(achtergrondhome.png);
+background-image: url(achtergrondhome\ -\ kopie.jpg);
 background-size: cover;
 }
 .overcandy{ /*candy*/
-background-image: url(achtergrondcandy.png);
+background-image: url(achtergrondcandy\ -\ kopie.jpg);
 background-size: cover;
 }
 
 .locaties{ /*locatie*/
-background-image: url(achtergrondlocat.png);
+background-image: url(achtergrondlocat\ -\ kopie.jpg);
 background-size: cover;
 }
 header{ /*home*/
